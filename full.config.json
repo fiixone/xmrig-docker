@@ -1,0 +1,135 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": "Docker"
+    },
+    "http": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 1611,
+        "access-token": "12348765",
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "title": true,
+    "dmi": true,
+    "watch": true,
+    "pause-on-battery": false,
+    "pause-on-active": false,
+    "syslog": false,
+    "log-file": null,
+    "print-time": 60,
+    "health-print-time": 60,
+    "colors": true,
+    "verbose": 0,
+    "randomx": {
+        "init": -1,
+        "init-avx2": -1,
+        "mode": "fast",
+        "1gb-pages": true,
+        "rdmsr": false,
+        "wrmsr": true,
+        "cache_qos": true,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "pools": [
+        {
+            "algo": null,
+            "coin": null,
+            "url": "auto.c3pool.org:19999",
+            "user": "424izbjbNuAd22QgcYAe7uCEcxfrepQs925c13UtitHSc474m3ZxbR481LM1GTSh5BSEWEZrbh3hyKTt2YZKwqys6RVjCMe",
+            "pass": "Docker",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "daemon-poll-interval": 1000,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        },
+        {
+            "algo": null,
+            "coin": null,
+            "url": "auto.c3pool.org:17777",
+            "user": "424izbjbNuAd22QgcYAe7uCEcxfrepQs925c13UtitHSc474m3ZxbR481LM1GTSh5BSEWEZrbh3hyKTt2YZKwqys6RVjCMe",
+            "pass": "Docker",
+            "rig-id": null,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false
+        },
+        {
+            "algo": null,
+            "coin": null,
+            "url": "mine.c3pool.com:23333",
+            "user": "424izbjbNuAd22QgcYAe7uCEcxfrepQs925c13UtitHSc474m3ZxbR481LM1GTSh5BSEWEZrbh3hyKTt2YZKwqys6RVjCMe",
+            "pass": "Docker",
+            "rig-id": null,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false
+        }
+    ],
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": true,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": true,
+        "yield": false,
+        "max-threads-hint": 100,
+        "asm": true,
+        "argon2-impl": null,
+        "astrobwt-max-size": 550,
+        "astrobwt-avx2": false
+    },
+    "opencl": {
+        "enabled": false,
+        "cache": true,
+        "loader": null,
+        "platform": "AMD",
+        "adl": true
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null,
+        "nvml": true
+    },
+    "retries": 20,
+    "retry-pause": 2,
+    "user-agent": null,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+    "benchmark": {
+        "size": null,
+        "alog": "rx/0",
+        "submit": false,
+        "verify": null,
+        "seed": null,
+        "hash": null
+    }
+}
